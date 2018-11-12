@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Meme Tarot</title>
+  </head>
+  <body>
+    <h2>Major Arcana</h2>
+    
+    {% for card in cards %}
+      <div>
+        <p>title: {{ card.title }}</p>
+        <img src="{{ card.imgUrl }}" />
+      </div>
+    {% endfor %}
+  </body>
+</html>
