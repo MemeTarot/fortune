@@ -5,7 +5,8 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 class Card(models.Model):
     description = models.TextField()
     meaning = models.TextField()
-    imgUrl = models.TextField()
+    imgUrl = models.URLField()
+    altText = models.CharField(max_length=200, default='')
 
     def __str__(self):
         return self.title
