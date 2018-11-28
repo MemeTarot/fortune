@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
+
 # Generic information shared by both arcanas
 class Card(models.Model):
     description = models.TextField()
@@ -12,11 +13,13 @@ class Card(models.Model):
         return self.title
 
     class Meta:
-        abstract=True
+        abstract = True
+
 
 class MajorArcanaCard(Card):
-    number = models.IntegerField(validators=[MaxValueValidator(22), MinValueValidator(0)]);
+    number = models.IntegerField(validators=[MaxValueValidator(22), MinValueValidator(0)])
     title = models.CharField(max_length=200)
+
 
 # Major arcana cards, select from list of suits and faces
 class MinorArcanaCard(Card):
@@ -25,9 +28,9 @@ class MinorArcanaCard(Card):
     WANDS = 'WD'
     PENTACLES = 'PT'
     SUITS_CHOICES = (
-        (SWORDS, 'Swords'), 
-        (CUPS, 'Cups'), 
-        (WANDS, 'Wands'), 
+        (SWORDS, 'Swords'),
+        (CUPS, 'Cups'),
+        (WANDS, 'Wands'),
         (PENTACLES, 'Pentacles'),
         (None, 'Select a suit')
     )

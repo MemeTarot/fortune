@@ -1,0 +1,19 @@
+{% block content %}
+
+{% if not spread %}
+<p>No cards.</p>
+{% endif %}
+
+{% for card in spread %}
+<div class="card" align="center">
+    <div class="title">
+        <h2>{{ card.number }} - {{ card.title }}</h2>
+    </div>
+    <div class="text">
+        <p>{{ card.description|linebreaksbr }}</p>
+        <p>{{ card.meaning|linebreaksbr }}</p>
+    </div>
+    <img src="{{ card.imgUrl }}" alt="{{ card.altText }}" width="350" />
+</div>
+{% endfor %}
+{% endblock %}
