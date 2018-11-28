@@ -9,7 +9,7 @@ def home(request):
 
 def readings(request):
     cards = MajorArcanaCard.objects.all()
-    num_cards = int(request.POST.get('spread'))
+    num_cards = int(request.POST.get('spread', 0))
     spread = choose_items(cards, num_cards)
     return render(request, 'reader/readings.html', {'spread': spread})
 
