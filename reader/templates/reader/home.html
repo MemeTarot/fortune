@@ -1,0 +1,34 @@
+<html>
+<div align="center">
+    <header>
+        <title>MemeTarot</title>
+    </header>
+
+    <body>
+    <div>
+        <h1><a href="/">MemeTarot</a></h1>
+    </div>
+    <div>
+        <p>This is an introduction to the site.</p>
+        <p>This is a description of tarot and instructions.</p>
+    </div>
+    <form method="post" action="{% url 'readings' %}">
+        {% csrf_token %}
+        <p>Choose the number of cards:</p>
+        <div>
+            <input type="radio" id="cardNum1" name="spread" value="1">
+            <label for="cardNum1">One Card</label>
+
+            <input type="radio" id="cardNum3" name="spread" value="3">
+            <label for="cardNum3">Three Cards</label>
+
+            <input type="radio" id="cardNum6" name="spread" value="6">
+            <label for="cardNum3">Six Cards</label>
+        </div>
+        <div>
+            <p><input type="submit" value="Start Reading"></p>
+        </div>
+    </form>
+    </body>
+</div>
+</html>
