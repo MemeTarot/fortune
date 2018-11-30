@@ -1,0 +1,11 @@
+body {
+  font-family: 'Text Me One', sans-serif;
+}
+
+h1 a, h2 a {
+  color: #5d5dd5;
+}
+
+a:hover {
+  text-decoration: none;
+}
