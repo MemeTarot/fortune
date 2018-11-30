@@ -1,26 +1,37 @@
+{% extends 'reader/base.html' %}
+
 {% block content %}
 
-{% if not spread %}
-<div align="center">
-    <p>You didn't select a number of cards.</p>
-</div>
-{% endif %}
+<div class="row justify-content-center">
+  {% if not spread %}
+  <div class="col">
+      <p>You didn't select a number of cards.</p>
+  </div>
+  {% endif %}
 
-{% for card in spread %}
-<div class="card" align="center">
-    <div class="title">
-        <h2>{{ card.number }} - {{ card.title }}</h2>
+  {% for card in spread %}
+
+    <div class="card col-4">
+        <div class="title">
+            <h2>{{ card.number }} - {{ card.title }}</h2>
+        </div>
+        <img src="{{ card.imgUrl }}" alt="{{ card.altText }}" />
+        <div class="text">
+            <p>{{ card.description|linebreaksbr }}</p>
+            <p>{{ card.meaning|linebreaksbr }}</p>
+        </div>
+        <br>
     </div>
-    <img src="{{ card.imgUrl }}" alt="{{ card.altText }}" width="350"/>
-    <div class="text">
-        <p>{{ card.description|linebreaksbr }}</p>
-        <p>{{ card.meaning|linebreaksbr }}</p>
+
+  {% endfor %}
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <a href="/">Get Another Reading</a>
     </div>
-    <br>
-</div>
-{% endfor %}
+  </footer>
 {% endblock %}
 
-<div align="center">
-    <button type="button" onclick="location.href='{% url 'home' %}'">Get Another Reading</button>
 </div>
+
+
