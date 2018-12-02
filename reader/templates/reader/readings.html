@@ -15,10 +15,11 @@
         <div class="title">
             <h2>{{ card.number }} - {{ card.title }}</h2>
         </div>
-        <img src="{{ card.imgUrl }}" alt="{{ card.altText }}" />
+        <img src="{{ card.url }}" alt="{{ card.altText }}" />
         <div class="text">
             <p>{{ card.description|linebreaksbr }}</p>
             <p>{{ card.meaning|linebreaksbr }}</p>
+            <pre>{{ card.url }}</pre>
         </div>
         <br>
     </div>

@@ -5,7 +5,7 @@
     "fields": {
       "description": "The Fool description.",
       "meaning": "The Fool meaning.",
-      "imgUrl": "https://images3.memedroid.com/images/UPLOADED128/572802eca90e2.jpeg",
+      "imgUrl": "img/fool.jpg",
       "altText": "",
       "number": 0,
       "title": "The Fool"
@@ -17,10 +17,22 @@
     "fields": {
       "description": "The Magician description.",
       "meaning": "The Magician meaning.",
-      "imgUrl": "http://images7.memedroid.com/images/UPLOADED676/5b7ea6205430e.jpeg",
+      "imgUrl": "img/magician.jpg",
       "altText": "",
       "number": 1,
       "title": "The Magician"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 3,
+    "fields": {
+      "description": "The High Priestess description.",
+      "meaning": "The High Priestess meaning.",
+      "imgUrl": "img/high-priestess.jpg",
+      "altText": "",
+      "number": 2,
+      "title": "The High Priestess"
     }
   },
   {
@@ -29,10 +41,22 @@
     "fields": {
       "description": "The Empress description.",
       "meaning": "The Empress meaning.",
-      "imgUrl": "https://i.imgur.com/MWroEo3.jpg",
+      "imgUrl": "img/empress.jpg",
       "altText": "",
       "number": 3,
       "title": "The Empress"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 5,
+    "fields": {
+      "description": "The Emperor description.",
+      "meaning": "The Emperor meaning.",
+      "imgUrl": "img/emperor.jpg",
+      "altText": "",
+      "number": 4,
+      "title": "The Emperor"
     }
   },
   {
@@ -41,7 +65,7 @@
     "fields": {
       "description": "The Hierophant description.",
       "meaning": "The Hierophant meaning.",
-      "imgUrl": "https://i.kym-cdn.com/photos/images/original/000/000/447/SteelRaptorJesus.jpg",
+      "imgUrl": "img/heirophant.jpg",
       "altText": "",
       "number": 5,
       "title": "The Hierophant"
@@ -53,7 +77,7 @@
     "fields": {
       "description": "The Lovers description.",
       "meaning": "The Lovers meaning.",
-      "imgUrl": "https://i.imgur.com/tuBG5in.jpg",
+      "imgUrl": "img/lovers.jpg",
       "altText": "",
       "number": 6,
       "title": "The Lovers"
@@ -65,10 +89,34 @@
     "fields": {
       "description": "The Chariot description.",
       "meaning": "The Chariot meaning.",
-      "imgUrl": "https://i.kym-cdn.com/photos/images/newsfeed/001/296/071/216.jpg",
+      "imgUrl": "img/chariot.jpg",
       "altText": "",
       "number": 7,
       "title": "The Chariot"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 9,
+    "fields": {
+      "description": "Strength description.",
+      "meaning": "Strength meaning.",
+      "imgUrl": "img/strength.jpg",
+      "altText": "",
+      "number": 8,
+      "title": "Strength"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 10,
+    "fields": {
+      "description": "The Hermit description.",
+      "meaning": "The Hermit meaning.",
+      "imgUrl": "img/hermit.gif",
+      "altText": "",
+      "number": 9,
+      "title": "The Hermit"
     }
   },
   {
@@ -77,7 +125,7 @@
     "fields": {
       "description": "Wheel of Fortune description.",
       "meaning": "Wheel of Fortune meaning.",
-      "imgUrl": "http://3.bp.blogspot.com/_Wqo9IVCWV5E/TKdQBtyzQyI/AAAAAAAAEoA/hKw2mogq6q0/s1600/Bizarro+WHEEL+09-26-10.jpg",
+      "imgUrl": "img/wheel-of-fortune.jpg",
       "altText": "",
       "number": 10,
       "title": "Wheel of Fortune"
@@ -89,7 +137,7 @@
     "fields": {
       "description": "Justice description.",
       "meaning": "Justice meaning.",
-      "imgUrl": "https://memegenerator.net/img/instances/65024221/bat-cat-wants-coffee-black-with-justice-and-head-scratches.jpg",
+      "imgUrl": "img/justice.jpg",
       "altText": "",
       "number": 11,
       "title": "Justice"
@@ -101,7 +149,7 @@
     "fields": {
       "description": "The Hanged Man description.",
       "meaning": "The Hanged Man meaning.",
-      "imgUrl": "https://78.media.tumblr.com/d311455bf344e6ad3e4b4ca9960bb8dc/tumblr_inline_p3hrrfuIUO1uuckq1_540.jpg",
+      "imgUrl": "img/hanged-man.jpg",
       "altText": "",
       "number": 12,
       "title": "The Hanged Man"
@@ -113,7 +161,7 @@
     "fields": {
       "description": "Temperance description.",
       "meaning": "Temperance meaning.",
-      "imgUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/31337784_1806988202680629_5107060375099442717_n.jpg?_nc_cat=109&_nc_ht=scontent-sjc3-1.xx&oh=fe3da434c6958ff9df00f4665d3b3f78&oe=5CB21F88",
+      "imgUrl": "img/temperance.jpg",
       "altText": "",
       "number": 14,
       "title": "Temperance"
@@ -125,10 +173,70 @@
     "fields": {
       "description": "The Devil description.",
       "meaning": "The Devil meaning.",
-      "imgUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/31337784_1806988202680629_5107060375099442717_n.jpg?_nc_cat=109&_nc_ht=scontent-sjc3-1.xx&oh=fe3da434c6958ff9df00f4665d3b3f78&oe=5CB21F88",
+      "imgUrl": "img/devil.jpg",
       "altText": "",
       "number": 15,
       "title": "The Devil"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 17,
+    "fields": {
+      "description": "The Tower description.",
+      "meaning": "The Tower meaning.",
+      "imgUrl": "img/tower.jpg",
+      "altText": "",
+      "number": 16,
+      "title": "The Tower"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 18,
+    "fields": {
+      "description": "The Star description.",
+      "meaning": "The Star meaning.",
+      "imgUrl": "img/star.jpg",
+      "altText": "",
+      "number": 17,
+      "title": "The Star"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 19,
+    "fields": {
+      "description": "The Moon description.",
+      "meaning": "The Moon meaning.",
+      "imgUrl": "img/moon.jpg",
+      "altText": "",
+      "number": 18,
+      "title": "The Moon"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 20,
+    "fields": {
+      "description": "The Sun description.",
+      "meaning": "The Sun meaning.",
+      "imgUrl": "img/sun.jpg",
+      "altText": "",
+      "number": 19,
+      "title": "The Sun"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
+    "pk": 21,
+    "fields": {
+      "description": "Judgement description.",
+      "meaning": "Judgement meaning.",
+      "imgUrl": "img/judge.jpg",
+      "altText": "",
+      "number": 20,
+      "title": "Judgement"
     }
   },
   {
