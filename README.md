@@ -12,15 +12,13 @@ A tarot fortune teller based on memes
 
 ```pip install -r requirements.txt```
 
-3. Run the server locally and view the starter page.
+3. Migrate
 
-```python manage.py runserver```
+```python manage.py migrate```
 
-To run the local copy, make sure you've completed steps 1-3, and have merged the local-copy branch.
+4. Populate the database with card and spread data.
 
-4. Populate the database with card data.
-
-```python manage.py loaddata fixtures/cards.json```
+```python manage.py loaddata card.json spread.json```
 
 5. Run the local server and view the basic site framework.
 
