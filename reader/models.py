@@ -18,7 +18,6 @@ class Placement(models.Model):
 
 # Generic information shared by both arcanas
 class Card(models.Model):
-    description = models.TextField()
     meaning = models.TextField()
     imgUrl = models.URLField()
     altText = models.CharField(max_length=200, default='')

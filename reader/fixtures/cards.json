@@ -3,10 +3,9 @@
     "model": "reader.majorarcanacard",
     "pk": 1,
     "fields": {
-      "description": "The Fool description.",
-      "meaning": "The Fool meaning.",
+      "meaning": "New beginnings, faith in the future, and a belief in the universe. It is th naivety before setting off on a big journey.",
       "imgUrl": "img/fool.jpg",
-      "altText": "",
+      "altText": "When you leave just enough toilet paper on the roll so you don't have to change it, but you're the next one to use the bathroom. Congratulations... you played yourself.",
       "number": 0,
       "title": "The Fool"
     }
@@ -15,10 +14,9 @@
     "model": "reader.majorarcanacard",
     "pk": 2,
     "fields": {
-      "description": "The Magician description.",
-      "meaning": "The Magician meaning.",
+      "meaning": "Tap into your full talents, capabilities, resources at your disposal, rather than holding back, especially when there is a need to transform something. ",
       "imgUrl": "img/magician.jpg",
-      "altText": "",
+      "altText": "A Magician clad in CD-ROMs and the caption: When you write over 1000 lines of code and it works perfectly on the first run.",
       "number": 1,
       "title": "The Magician"
     }
@@ -27,10 +25,9 @@
     "model": "reader.majorarcanacard",
     "pk": 3,
     "fields": {
-      "description": "The High Priestess description.",
-      "meaning": "The High Priestess meaning.",
+      "meaning": "It may be time to retreat and reflect upon the situation and trust your inner instincts to guide you through it. Things around you are not what they appear to be right now.",
       "imgUrl": "img/high-priestess.jpg",
-      "altText": "",
+      "altText": "A woman in a kitten Snuggie, arms raised towards the heavens.",
       "number": 2,
       "title": "The High Priestess"
     }
@@ -39,10 +36,9 @@
     "model": "reader.majorarcanacard",
     "pk": 4,
     "fields": {
-      "description": "The Empress description.",
-      "meaning": "The Empress meaning.",
+      "meaning": "Traditionally a maternal figure, she represents the creation of life, romance, art, or new business.",
       "imgUrl": "img/empress.jpg",
-      "altText": "",
+      "altText": "Me: Where's the cat? Her: She doesn't respond to that. Me: I'm not saying it Her: Then I'm not telling you Me: Ok, where is Her Majesty, Empress Clawdia Her: On her throne",
       "number": 3,
       "title": "The Empress"
     }
@@ -51,10 +47,9 @@
     "model": "reader.majorarcanacard",
     "pk": 5,
     "fields": {
-      "description": "The Emperor description.",
-      "meaning": "The Emperor meaning.",
+      "meaning": "He is stability and security, the figure of being in charge of your own rules and boundaries.",
       "imgUrl": "img/emperor.jpg",
-      "altText": "",
+      "altText": "The Emperor ('Me') upset at an underling ('Pandora commercials') with the subtitle: You threw off my groove!",
       "number": 4,
       "title": "The Emperor"
     }
@@ -63,7 +58,6 @@
     "model": "reader.majorarcanacard",
     "pk": 6,
     "fields": {
-      "description": "The Hierophant description.",
       "meaning": "The Hierophant meaning.",
       "imgUrl": "img/heirophant.jpg",
       "altText": "",
@@ -75,7 +69,6 @@
     "model": "reader.majorarcanacard",
     "pk": 7,
     "fields": {
-      "description": "The Lovers description.",
       "meaning": "The Lovers meaning.",
       "imgUrl": "img/lovers.jpg",
       "altText": "",
@@ -87,7 +80,6 @@
     "model": "reader.majorarcanacard",
     "pk": 8,
     "fields": {
-      "description": "The Chariot description.",
       "meaning": "The Chariot meaning.",
       "imgUrl": "img/chariot.jpg",
       "altText": "",
@@ -99,7 +91,6 @@
     "model": "reader.majorarcanacard",
     "pk": 9,
     "fields": {
-      "description": "Strength description.",
       "meaning": "Strength meaning.",
       "imgUrl": "img/strength.jpg",
       "altText": "",
@@ -111,7 +102,6 @@
     "model": "reader.majorarcanacard",
     "pk": 10,
     "fields": {
-      "description": "The Hermit description.",
       "meaning": "The Hermit meaning.",
       "imgUrl": "img/hermit.gif",
       "altText": "",
@@ -123,7 +113,6 @@
     "model": "reader.majorarcanacard",
     "pk": 11,
     "fields": {
-      "description": "Wheel of Fortune description.",
       "meaning": "Wheel of Fortune meaning.",
       "imgUrl": "img/wheel-of-fortune.jpg",
       "altText": "",
@@ -135,7 +124,6 @@
     "model": "reader.majorarcanacard",
     "pk": 12,
     "fields": {
-      "description": "Justice description.",
       "meaning": "Justice meaning.",
       "imgUrl": "img/justice.jpg",
       "altText": "",
@@ -147,7 +135,6 @@
     "model": "reader.majorarcanacard",
     "pk": 13,
     "fields": {
-      "description": "The Hanged Man description.",
       "meaning": "The Hanged Man meaning.",
       "imgUrl": "img/hanged-man.jpg",
       "altText": "",
@@ -159,7 +146,6 @@
     "model": "reader.majorarcanacard",
     "pk": 14,
     "fields": {
-      "description": "",
       "meaning": "Something important is coming to an end, and endings can be difficult, but they also make space for something new. It is often endings, and our response to them, that shows us who we are.",
       "imgUrl": "img/death.jpg",
       "altText": "A kitten sits upon a white plush unicorn with the caption: Lo, I saw a rider on a pale horse, and the rider was death.",
@@ -171,7 +157,6 @@
     "model": "reader.majorarcanacard",
     "pk": 15,
     "fields": {
-      "description": "Temperance description.",
       "meaning": "Temperance meaning.",
       "imgUrl": "img/temperance.jpg",
       "altText": "",
@@ -183,7 +168,6 @@
     "model": "reader.majorarcanacard",
     "pk": 16,
     "fields": {
-      "description": "The Devil description.",
       "meaning": "The Devil meaning.",
       "imgUrl": "img/devil.jpg",
       "altText": "",
@@ -195,7 +179,6 @@
     "model": "reader.majorarcanacard",
     "pk": 17,
     "fields": {
-      "description": "The Tower description.",
       "meaning": "The Tower meaning.",
       "imgUrl": "img/tower.jpg",
       "altText": "",
@@ -207,7 +190,6 @@
     "model": "reader.majorarcanacard",
     "pk": 18,
     "fields": {
-      "description": "The Star description.",
       "meaning": "The Star meaning.",
       "imgUrl": "img/star.jpg",
       "altText": "",
@@ -219,7 +201,6 @@
     "model": "reader.majorarcanacard",
     "pk": 19,
     "fields": {
-      "description": "The Moon description.",
       "meaning": "The Moon meaning.",
       "imgUrl": "img/moon.jpg",
       "altText": "",
@@ -231,7 +212,6 @@
     "model": "reader.majorarcanacard",
     "pk": 20,
     "fields": {
-      "description": "The Sun description.",
       "meaning": "The Sun meaning.",
       "imgUrl": "img/sun.jpg",
       "altText": "",
@@ -243,7 +223,6 @@
     "model": "reader.majorarcanacard",
     "pk": 21,
     "fields": {
-      "description": "Judgement description.",
       "meaning": "Judgement meaning.",
       "imgUrl": "img/judge.jpg",
       "altText": "",
@@ -255,10 +234,9 @@
     "model": "reader.majorarcanacard",
     "pk": 22,
     "fields": {
-      "description": "The World description.",
-      "meaning": "The World meaning.",
-      "imgUrl": "https://pics.awwmemes.com/coleslaw-slut-friendlythotx2-i-have-retired-the-flat-earth-theory-35269511.png",
-      "altText": "",
+      "meaning": "The ending to a cycle of life, or a pause before the next big cycle. Major change may be on your horizon.",
+      "imgUrl": "img/world.jpg",
+      "altText": "A cat playing with a ball, outlined on a map of Earth. Captioned, I have retired the flat earth theory... the world is actually a cat I'm sorry",
       "number": 21,
       "title": "The World"
     }
