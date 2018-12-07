@@ -159,10 +159,10 @@
     "model": "reader.majorarcanacard",
     "pk": 14,
     "fields": {
-      "description": "A kitten sits upon a white plush unicorn with the caption: Lo, I saw a rider on a pale horse, and the rider was death.",
+      "description": "",
       "meaning": "Something important is coming to an end, and endings can be difficult, but they also make space for something new. It is often endings, and our response to them, that shows us who we are.",
       "imgUrl": "img/death.jpg",
-      "altText": "",
+      "altText": "A kitten sits upon a white plush unicorn with the caption: Lo, I saw a rider on a pale horse, and the rider was death.",
       "number": 13,
       "title": "Death"
     }
