@@ -1,0 +1,138 @@
+[
+  {
+    "model": "reader.spread",
+    "pk": 1,
+    "fields": {
+      "title": "Direction"
+    }
+  },
+  {
+    "model": "reader.spread",
+    "pk": 2,
+    "fields": {
+      "title": "Love"
+    }
+  },
+  {
+    "model": "reader.spread",
+    "pk": 3,
+    "fields": {
+      "title": "Creativity"
+    }
+  },
+  {
+    "model": "reader.spread",
+    "pk": 4,
+    "fields": {
+      "title": "Reflection"
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 1,
+    "fields": {
+      "title": "Past",
+      "meaning": "This card represents the circumstances and events leading up to this moment.",
+      "spread": 1
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 2,
+    "fields": {
+      "title": "Present",
+      "meaning": "This card represents your current position.",
+      "spread": 1
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 3,
+    "fields": {
+      "title": "Future",
+      "meaning": "This card represents future if you continue on the current course.",
+      "spread": 1
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 4,
+    "fields": {
+      "title": "You",
+      "meaning": "This card represents your present condition, be it your feelings or your effect on the situation.",
+      "spread": 2
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 5,
+    "fields": {
+      "title": "The Relationship",
+      "meaning": "This card represents the state of the relationship.",
+      "spread": 2
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 6,
+    "fields": {
+      "title": "Your Partner",
+      "meaning": "This card represents your partner in the relationship.",
+      "spread": 2
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 7,
+    "fields": {
+      "title": "Idea",
+      "meaning": "The idea is the concept behind your project, and this card represents the nature or impact of that idea.",
+      "spread": 3
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 8,
+    "fields": {
+      "title": "Process",
+      "meaning": "This card represents the journey that you're on, or the journey you're beginning.",
+      "spread": 3
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 9,
+    "fields": {
+      "title": "Aspiration",
+      "meaning": "This card represents your hopes and dreams for this idea and process, or the best outcome possible.",
+      "spread": 3
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 10,
+    "fields": {
+      "title": "You",
+      "meaning": "Consider who you are, who you've been, and who you'd like to be.",
+      "spread": 4
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 11,
+    "fields": {
+      "title": "Path",
+      "meaning": "This card reflects the nature of the journey. Where are you going, and how rocky is the terrain?",
+      "spread": 4
+    }
+  },
+  {
+    "model": "reader.placement",
+    "pk": 12,
+    "fields": {
+      "title": "Potential",
+      "meaning": "This card represents the best possible outcome for the journey you're one. You might be on the right track, or it may be time to change course.",
+      "spread": 4
+    }
+  }
+]
