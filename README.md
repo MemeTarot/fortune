@@ -18,7 +18,7 @@ A tarot fortune teller based on memes
 
 4. Populate the database with card and spread data.
 
-```python manage.py loaddata card.json spread.json```
+```python manage.py loaddata cards.json spreads.json```
 
 5. Run the local server and view the basic site framework.
 
