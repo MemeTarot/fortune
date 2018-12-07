@@ -3,23 +3,23 @@
 {% block content %}
 <div class="row justify-content-center">
   <div class="col">
-    <p class="lead">This is an introduction to the site.</p>
-    <p>This is a description of tarot and instructions.</p>
+    <p class="lead">{{ intro }}</p>
+    <p>{{ desc }}</p>
     <form method="post" action="{% url 'readings' %}">
         {% csrf_token %}
-        <p>Choose the number of cards:</p>
+        <p>{{ choose }}</p>
         <div>
             <input type="radio" id="cardNum1" name="spread" value="1">
-            <label for="cardNum1">One Card</label>
+            <label for="cardNum1">{{ card1 }}</label>
 
             <input type="radio" id="cardNum3" name="spread" value="3">
-            <label for="cardNum3">Three Cards</label>
+            <label for="cardNum3">{{ card3 }}</label>
 
             <input type="radio" id="cardNum6" name="spread" value="6">
-            <label for="cardNum3">Six Cards</label>
+            <label for="cardNum3">{{ card6 }}</label>
         </div>
         <div>
-            <p><input type="submit" value="Start Reading"></p>
+            <p><input type="submit" value="{{ button }}"></p>
         </div>
     </form>
   </div>

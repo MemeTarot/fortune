@@ -3,19 +3,19 @@
 {% block content %}
 
 <div class="row justify-content-center">
-  {% if not spread %}
-  <div class="col">
-      <p>You didn't select a number of cards.</p>
-  </div>
-  {% endif %}
+    {% if not spread %}
+    <div class="col">
+        <p>You didn't select a number of cards.</p>
+    </div>
+    {% endif %}
 
-  {% for card in spread %}
+    {% for card in spread %}
 
     <div class="card col-4">
         <div class="title">
             <h2>{{ card.number }} - {{ card.title }}</h2>
         </div>
-        <img src="{{ card.url }}" alt="{{ card.altText }}" />
+        <img src="{{ card.url }}" alt="{{ card.altText }}"/>
         <div class="text">
             <p>{{ card.description|linebreaksbr }}</p>
             <p>{{ card.meaning|linebreaksbr }}</p>
@@ -24,14 +24,14 @@
         <br>
     </div>
 
-  {% endfor %}
+    {% endfor %}
 
-  <footer class="footer">
-    <div class="container-fluid">
-      <a href="/">Get Another Reading</a>
-    </div>
-  </footer>
-{% endblock %}
+    <footer class="footer">
+        <div class="container-fluid">
+            <a href="/">{{ get }}</a>
+        </div>
+    </footer>
+    {% endblock %}
 
 </div>
 
