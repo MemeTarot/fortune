@@ -157,6 +157,18 @@
   },
   {
     "model": "reader.majorarcanacard",
+    "pk": 14,
+    "fields": {
+      "description": "A kitten sits upon a white plush unicorn with the caption: Lo, I saw a rider on a pale horse, and the rider was death.",
+      "meaning": "Something is coming to an end. Endings can be difficult, but they also make space for something new. Death indicates the completion of something significant.",
+      "imgUrl": "img/death.jpg",
+      "altText": "",
+      "number": 13,
+      "title": "Death"
+    }
+  },
+  {
+    "model": "reader.majorarcanacard",
     "pk": 15,
     "fields": {
       "description": "Temperance description.",
