@@ -1,6 +1,20 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
+# Spread
+class Spread(models.Model):
+    title = models.CharField(max_length=200, default='')
+
+    def __str__(self):
+        return self.title
+
+class Placement(models.Model):
+    title = models.CharField(max_length=200, default='')
+    meaning = models.TextField()
+    spread = models.ForeignKey(Spread, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
 
 # Generic information shared by both arcanas
 class Card(models.Model):
