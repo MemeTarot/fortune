@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib.staticfiles.templatetags.staticfiles import static
 from random import sample
 from .models import MajorArcanaCard
 
@@ -9,6 +10,8 @@ def home(request):
 
 def readings(request):
     cards = MajorArcanaCard.objects.all()
+    for card in cards:
+        card.url = url = static(card.imgUrl)
     num_cards = int(request.POST.get('spread', 0))
     spread = choose_items(cards, num_cards)
     return render(request, 'reader/readings.html', {'spread': spread})
