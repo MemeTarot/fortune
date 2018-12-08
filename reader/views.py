@@ -24,9 +24,9 @@ def readings(request):
         card.url = static(card.imgUrl)
 
     # Receives the spread chosen by the user
-    spread = request.POST.get('spread')
+    spread_pk = int(request.POST.get('spread'))
     # Returns a list of placements for the chosen spread
-    placements = [place for place in Placement.objects.all() if place.spread.pk == spread.pk]
+    placements = [place for place in Placement.objects.all() if place.spread.pk == spread_pk]
     # Choose three random cards from the tarot deck
     random_cards = choose_items(cards, 3)
     # (placement, card) list
