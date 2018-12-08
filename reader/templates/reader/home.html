@@ -3,24 +3,12 @@
 {% block content %}
 <div class="row justify-content-center">
   <div class="col">
-    <p class="lead">{{ intro }}</p>
-    <p>{{ desc }}</p>
+    <p class="lead">This is an introduction to the site.</p>
+    <p>This is a description of the site.</p>
     <form method="post" action="{% url 'readings' %}">
         {% csrf_token %}
-        <p>{{ choose }}</p>
-        <div>
-            <input type="radio" id="cardNum1" name="spread" value="1">
-            <label for="cardNum1">{{ card1 }}</label>
-
-            <input type="radio" id="cardNum3" name="spread" value="3">
-            <label for="cardNum3">{{ card3 }}</label>
-
-            <input type="radio" id="cardNum6" name="spread" value="6">
-            <label for="cardNum3">{{ card6 }}</label>
-        </div>
-        <div>
-            <p><input type="submit" value="{{ button }}"></p>
-        </div>
+        <p>{{ form }}</p>
+        <p><input type="submit" value="Get A Reading"></p>
     </form>
   </div>
 </div>
