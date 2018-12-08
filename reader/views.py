@@ -8,6 +8,7 @@ from random import sample
 # Create your views here.
 
 def home(request):
+    """The Home Page view"""
     if request.method == 'POST':
         form = SpreadForm(request.GET)
     else:
@@ -17,13 +18,18 @@ def home(request):
 
 
 def readings(request):
+    """The Readings Page view"""
     cards = MajorArcanaCard.objects.all()
     for card in cards:
-        card.url = url = static(card.imgUrl)
+        card.url = static(card.imgUrl)
 
+    # Receives the spread chosen by the user
     spread = request.POST.get('spread')
+    # Returns a list of placements for the chosen spread
     placements = [place for place in Placement.objects.all() if place.spread.pk == spread.pk]
+    # Choose three random cards from the tarot deck
     random_cards = choose_items(cards, 3)
+    # (placement, card) list
     reading = zip(placements, random_cards)
 
     return render(request, 'reader/readings.html', {'reading': reading})
