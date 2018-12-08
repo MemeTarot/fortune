@@ -14,12 +14,6 @@
 <div>
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="/"><h2>Meme Tarot</h2></a>
-        <div align="right">
-            <form method="post" action="{{ request.path }}">
-                {% csrf_token %}
-                {{ form }}
-            </form>
-        </div>
     </nav>
     <div class="container-fluid">
         <div>

@@ -2,14 +2,15 @@
 
 {% block content %}
 <div class="row justify-content-center">
-  <div class="col">
-    <p class="lead">This is an introduction to the site.</p>
-    <p>This is a description of the site.</p>
-    <form method="post" action="{% url 'readings' %}">
-        {% csrf_token %}
-        <p>{{ form }}</p>
-        <p><input type="submit" value="Get A Reading"></p>
-    </form>
-  </div>
+    <div class="col">
+        <p class="lead">This is an introduction to the site.</p>
+        <p>Think of a question or situation in your life that you want the Tarot to answer. Choose the spread that best
+            fits your situation.</p>
+        <form method="post" action="{% url 'readings' %}">
+            {% csrf_token %}
+            <p>{{ form }}</p>
+            <p><input type="submit" value="Get A Reading"></p>
+        </form>
+    </div>
 </div>
 {% endblock %}
