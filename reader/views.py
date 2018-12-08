@@ -21,8 +21,8 @@ def readings(request):
     for card in cards:
         card.url = url = static(card.imgUrl)
 
-    spread_pk = int(request.POST.get('spread'))
-    placements = [place for place in Placement.objects.all() if place.spread.pk == spread_pk]
+    spread = request.POST.get('spread')
+    placements = [place for place in Placement.objects.all() if place.spread.pk == spread.pk]
     random_cards = choose_items(cards, 3)
     reading = zip(placements, random_cards)
 
