@@ -17,7 +17,6 @@
         </div>
         <img src="{{ card.url }}" alt="{{ card.altText }}"/>
         <div class="text">
-            <p>{{ card.description|linebreaksbr }}</p>
             <p>{{ card.meaning|linebreaksbr }}</p>
             <pre>{{ card.url }}</pre>
         </div>
@@ -28,7 +27,7 @@
 
     <footer class="footer">
         <div class="container-fluid">
-            <a href="/">{{ get }}</a>
+            <a href="/">Get Another Reading</a>
         </div>
     </footer>
     {% endblock %}
