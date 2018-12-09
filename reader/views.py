@@ -1,10 +1,12 @@
 from django.shortcuts import render
 from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.db.utils import OperationalError
 from .forms import SpreadForm
+from .models import MajorArcanaCard, Placement
 from random import sample
-from .models import MajorArcanaCard
 
 # Create your views here.
+
 
 def home(request):
     if request.method == 'POST':
@@ -13,18 +15,23 @@ def home(request):
         form = SpreadForm()
     return render(request, 'reader/home.html', {'form': form})
 
+
 def readings(request):
-    cards = MajorArcanaCard.objects.all()
+    try:
+        cards = MajorArcanaCard.objects.all()
+        for card in cards:
+            card.url = url = static(card.imgUrl)
 
-    for card in cards:
-        card.url = url = static(card.imgUrl)
+        spread_pk = int(request.POST.get('spread'))
+        placements = [place for place in Placement.objects.all() if place.spread.pk == spread_pk]
+        random_cards = choose_items(cards, 3)
 
-    spread = request.POST.get('spread')
+        reading = zip(placements, random_cards)
 
-    random_cards = choose_items(cards, 3)
+        return render(request, 'reader/readings.html', {'reading': reading})
+    except OperationalError:
+        pass  # when db doesn't exist yet, views.py should be importable
 
-
-    return render(request, 'reader/readings.html', {'spread': random_cards})
 
 def choose_items(collection, n):
     """Returns a list of <n> random items from <collection>."""
