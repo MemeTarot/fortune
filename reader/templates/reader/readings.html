@@ -3,22 +3,21 @@
 {% block content %}
 
 <div class="row justify-content-center">
-    {% if not spread %}
-    <div class="col">
-        <p>You didn't select a number of cards.</p>
-    </div>
-    {% endif %}
-
-    {% for card in spread %}
+    {% for place,card in reading %}
 
     <div class="card col-4">
-        <div class="title">
+        <div class="place-title">
+            <h2>{{ place.title }}</h2>
+        </div>
+        <div class="place-text">
+            <p><i>{{ place.meaning|linebreaksbr }}</i></p>
+        </div>
+        <div class="card-title">
             <h2>{{ card.number }} - {{ card.title }}</h2>
         </div>
         <img src="{{ card.url }}" alt="{{ card.altText }}"/>
-        <div class="text">
+        <div class="card-text">
             <p>{{ card.meaning|linebreaksbr }}</p>
-            <pre>{{ card.url }}</pre>
         </div>
         <br>
     </div>
