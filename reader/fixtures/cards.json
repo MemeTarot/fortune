@@ -102,7 +102,7 @@
     "model": "reader.majorarcanacard",
     "pk": 10,
     "fields": {
-      "meaning": "The Hermit meaning.",
+      "meaning": "Sometimes we must pull away and turn our gaze inward to find peace and clarity.",
       "imgUrl": "img/hermit.gif",
       "altText": "A hermit crab wearing a pen wanders around on a sheet of paper.",
       "number": 9,
