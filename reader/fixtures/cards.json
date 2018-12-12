@@ -71,7 +71,7 @@
     "fields": {
       "meaning": "Our connection to others is sacred and challenging. The lovers is about connection, communication, honesty, and the choices that shape our relationship to self and others.",
       "imgUrl": "img/lovers.jpg",
-      "altText": "",
+      "altText": "A teenager holds up a sign that says: I love you more than free wifi.",
       "number": 6,
       "title": "The Lovers"
     }
@@ -80,9 +80,9 @@
     "model": "reader.majorarcanacard",
     "pk": 8,
     "fields": {
-      "meaning": "The Chariot meaning.",
+      "meaning": "The time has come for movement, for action!",
       "imgUrl": "img/chariot.jpg",
-      "altText": "",
+      "altText": "A happy purple dragon rides in a wagon. Caption: You've seen elf on a shelf, now get ready for...",
       "number": 7,
       "title": "The Chariot"
     }
@@ -91,9 +91,9 @@
     "model": "reader.majorarcanacard",
     "pk": 9,
     "fields": {
-      "meaning": "Strength meaning.",
+      "meaning": "Strength comes in many forms, and requires not just brawn, but sensitivity, insight, and wisdom. Consider the obstacle being faced when choosing your strategy.",
       "imgUrl": "img/strength.jpg",
-      "altText": "",
+      "altText": "A baby penguin flexes. Caption: When you open the spaghetti sauce jar on your first try.",
       "number": 8,
       "title": "Strength"
     }
@@ -104,7 +104,7 @@
     "fields": {
       "meaning": "The Hermit meaning.",
       "imgUrl": "img/hermit.gif",
-      "altText": "",
+      "altText": "A hermit crab wearing a pen wanders around on a sheet of paper.",
       "number": 9,
       "title": "The Hermit"
     }
