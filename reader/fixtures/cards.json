@@ -58,9 +58,9 @@
     "model": "reader.majorarcanacard",
     "pk": 6,
     "fields": {
-      "meaning": "The Hierophant meaning.",
+      "meaning": "The Hierophant is a spiritual figure who is knowledgable about traditional values. Consider your relationship to ritual, to morality as defined by groups that are meaningful to you.",
       "imgUrl": "img/heirophant.jpg",
-      "altText": "",
+      "altText": "A raptor dressed in robes cuddles a lamb.",
       "number": 5,
       "title": "The Hierophant"
     }
@@ -69,7 +69,7 @@
     "model": "reader.majorarcanacard",
     "pk": 7,
     "fields": {
-      "meaning": "The Lovers meaning.",
+      "meaning": "Our connection to others is sacred and challenging. The lovers is about connection, communication, honesty, and the choices that shape our relationship to self and others.",
       "imgUrl": "img/lovers.jpg",
       "altText": "",
       "number": 6,
