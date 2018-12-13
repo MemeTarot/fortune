@@ -113,9 +113,9 @@
     "model": "reader.majorarcanacard",
     "pk": 11,
     "fields": {
-      "meaning": "Wheel of Fortune meaning.",
+      "meaning": "The wheel of fortune is interpreted as the wheel of life. conviction alone will not keep you from the brink of losing all your fortunes as seen with the angry women. the other contestants can be interpreted as how people in your lives view you. The alien symoolizes fortunes ethereal treasures on the horizon.",
       "imgUrl": "img/wheel-of-fortune.jpg",
-      "altText": "",
+      "altText": "A cartoon drawing of the wheel of fortune game with 3 contestants. the first contestant is demanding to buy an 'A'.",
       "number": 10,
       "title": "Wheel of Fortune"
     }
@@ -124,9 +124,9 @@
     "model": "reader.majorarcanacard",
     "pk": 12,
     "fields": {
-      "meaning": "Justice meaning.",
+      "meaning": "The figure in the Justice card has two symbolic meanings. The cat represents balance and the batman helmet is a preservation  of force  by any means of force. When this card is present one should be focusing on unfair treatment and imbalance.",
       "imgUrl": "img/justice.jpg",
-      "altText": "",
+      "altText": "Picture of a cat dressed as batman. very cute and cuddly and the bat costume is a lego batman helmet.",
       "number": 11,
       "title": "Justice"
     }
@@ -135,9 +135,9 @@
     "model": "reader.majorarcanacard",
     "pk": 13,
     "fields": {
-      "meaning": "The Hanged Man meaning.",
+      "meaning": "Number 2 has is ensured in a TRAP! the significance of Number 2 hanging by his feet should convey an ultimate feeling of surrender where one is not in control of ones fate. when dealt this card one should be thinking about opportunities being missed.",
       "imgUrl": "img/hanged-man.jpg",
-      "altText": "",
+      "altText": "star trek's number 2 has been caught in a bunny snare and warf/the doctor look very confused",
       "number": 12,
       "title": "The Hanged Man"
     }
@@ -157,9 +157,9 @@
     "model": "reader.majorarcanacard",
     "pk": 15,
     "fields": {
-      "meaning": "Temperance meaning.",
+      "meaning": "this card is an indication that one should take the middle path; a path of calmness. This is supported by the deep-thinking kitty taking a relaxing tea break.  If dealt this card one should be thinking about a lack of patience",
       "imgUrl": "img/temperance.jpg",
-      "altText": "",
+      "altText": "cute kitty sipping on coffee/tea and tells the server to keep pouring.",
       "number": 14,
       "title": "Temperance"
     }
@@ -168,9 +168,9 @@
     "model": "reader.majorarcanacard",
     "pk": 16,
     "fields": {
-      "meaning": "The Devil meaning.",
+      "meaning": "This card represents being seduced by material objects within the physical world. the devil kitty is gluttonously devouring the the flip flop. this card is also an indication of relationship challenges… shown with one should being devoured by sin and the other off in the distance. ",
       "imgUrl": "img/devil.jpg",
-      "altText": "",
+      "altText": "cute black kitty trying to eat a flip flop.",
       "number": 15,
       "title": "The Devil"
     }
@@ -179,7 +179,7 @@
     "model": "reader.majorarcanacard",
     "pk": 17,
     "fields": {
-      "meaning": "The tower is interpreted as a loss, an unexpected change, a crisis, a trauma, a natural disaster, violence and choas.The Tower is a symbol for the ambition that is constructed on faulty premises. The destruction of the tower must happen in order to clear out the old ways and welcome something new. Its revelations can come in a flash of truth or inspiration.",
+      "meaning": "The Tower is interpreted as a loss, an unexpected change, a crisis, a trauma, a natural disaster, violence and chaos. The Tower is a symbol for the ambition that is constructed on faulty premises. The destruction of the Tower must happen in order to clear out the old ways and welcome something new. Its revelations can come in a flash of truth or inspiration.",
       "imgUrl": "img/tower.jpg",
       "altText": "The burning man Tower from recent burning man festival it shows the tall wood tower man burning in flames",
       "number": 16,
@@ -190,7 +190,7 @@
     "model": "reader.majorarcanacard",
     "pk": 18,
     "fields": {
-      "meaning": "The Star card is the symbol for faith and bright future and good prospect through its clam and serene light and guidance. The Star signs means hope and inspiration has finally came to fulfilled. The Star could be interpreted as Hope, faith, purpose, renewal, spirituality.",
+      "meaning": "The Star card is the symbol for faith and bright future and good prospect through its calm and serene light and guidance. The Star signs means hope and inspiration has finally came to fulfillment. The Star could be interpreted as Hope, faith, purpose, renewal, and spirituality.",
       "imgUrl": "img/star.jpg",
       "altText": "The image is the funny cat staring at you on the top of the christmas tree where a tar should be with the words saying 'Whatever.I am the Star'",
       "number": 17,
@@ -201,7 +201,7 @@
     "model": "reader.majorarcanacard",
     "pk": 19,
     "fields": {
-      "meaning": "The Moon is the symbol of dreams, intuition and the unconcious. The moon could be interpreted as anxiety, illusion, intuition, fear and the subconcious. It could be a path for the higher spirtuality and conciousness. It also represents the awareness of your emotions, own subconcious mind such as desire for power, material, spirituality and compassion for others. ",
+      "meaning": "The Moon is the symbol of dreams, intuition, and the unconcious. The Moon could be interpreted as anxiety, illusion, intuition, fear, and the subconcious. It could be a path for higher spirtuality and conciousness. It also represents the awareness of your emotions, your own subconcious mind such as the desire for power, material, spirituality, and compassion for others. ",
       "imgUrl": "img/moon.jpg",
       "altText": "The Moon shaped with yellow super moon with the captions saying 'I am super, Thanks for asking'",
       "number": 18,
@@ -212,7 +212,7 @@
     "model": "reader.majorarcanacard",
     "pk": 20,
     "fields": {
-      "meaning": "The Sun is the symbol of bright future, radiationg with positivity and warmth. It also means the innocenceness and purity of  childhood.  The sun could be interpreted as vitality, success and good wealth.",
+      "meaning": "The Sun is the symbol of bright future, radiating with positivity and warmth. It also means the innocence and purity of childhood. The sun could be interpreted as vitality, success, and good wealth.",
       "imgUrl": "img/sun.jpg",
       "altText": "It is the cartoon with The Sun coming out from the hills with the captions saying: 'Here comes the sun'",
       "number": 19,
@@ -223,7 +223,7 @@
     "model": "reader.majorarcanacard",
     "pk": 21,
     "fields": {
-      "meaning": "The judgement card indicate the time for now to make a change and it is time for the life changing decision.  The judgement is the symbol of rebirth, right judgement and absolution and positive changes. The judgment could be interpreted as you are in the spiritual awakening to make the right decison for the better changes. ",
+      "meaning": "The judgement card indicates the time to make a change, and it is time for a life-changing decision.  Judgement is the symbol of rebirth, right judgement, absolution, and positive changes. Judgment could be interpreted as the spiritual awakening to make the right decison for better changes. ",
       "imgUrl": "img/judge.jpg",
       "altText": "The funny picture of a judge with the title Line of control and him saying Odour Odour with the streak of stink smell.",
       "number": 20,
