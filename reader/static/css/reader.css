@@ -17,10 +17,6 @@ html {
   min-height: 100%;
 }
 
-.home-img {
-  border-radius: 100%;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
