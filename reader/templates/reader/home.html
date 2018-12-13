@@ -3,8 +3,8 @@
 {% block content %}
 <div class="row justify-content-center">
   <div class="col">
-    <p class="lead">This is an introduction to the site.</p>
-    <p>This is a description of the site.</p>
+    <p class="lead">Welcome to MemeTarot. Let the magical wonder of the internet provide guidance!</p>
+    <p>Think of a question, then choose a theme from the list below to get your reading.</p>
     <form method="post" action="{% url 'readings' %}">
         {% csrf_token %}
         <p>{{ form }}</p>
