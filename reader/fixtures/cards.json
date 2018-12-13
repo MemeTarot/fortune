@@ -113,9 +113,9 @@
     "model": "reader.majorarcanacard",
     "pk": 11,
     "fields": {
-      "meaning": "Wheel of Fortune meaning.",
+      "meaning": "The wheel of fortune is interpreted as the wheel of life. conviction alone will not keep you from the brink of losing all your fortunes as seen with the angry women. the other contestants can be interpreted as how people in your lives view you. The alien symoolizes fortunes ethereal treasures on the horizon.",
       "imgUrl": "img/wheel-of-fortune.jpg",
-      "altText": "",
+      "altText": "A cartoon drawing of the wheel of fortune game with 3 contestants. the first contestant is demanding to buy an 'A'.",
       "number": 10,
       "title": "Wheel of Fortune"
     }
@@ -124,9 +124,9 @@
     "model": "reader.majorarcanacard",
     "pk": 12,
     "fields": {
-      "meaning": "Justice meaning.",
+      "meaning": "The figure in the Justice card has two symbolic meanings. The cat represents balance and the batman helmet is a preservation  of force  by any means of force. When this card is present one should be focusing on unfair treatment and imbalance.",
       "imgUrl": "img/justice.jpg",
-      "altText": "",
+      "altText": "Picture of a cat dressed as batman. very cute and cuddly and the bat costume is a lego batman helmet.",
       "number": 11,
       "title": "Justice"
     }
@@ -135,9 +135,9 @@
     "model": "reader.majorarcanacard",
     "pk": 13,
     "fields": {
-      "meaning": "The Hanged Man meaning.",
+      "meaning": "Number 2 has is ensured in a TRAP! the significance of Number 2 hanging by his feet should convey an ultimate feeling of surrender where one is not in control of ones fate. when dealt this card one should be thinking about opportunities being missed.",
       "imgUrl": "img/hanged-man.jpg",
-      "altText": "",
+      "altText": "star trek's number 2 has been caught in a bunny snare and warf/the doctor look very confused",
       "number": 12,
       "title": "The Hanged Man"
     }
@@ -157,9 +157,9 @@
     "model": "reader.majorarcanacard",
     "pk": 15,
     "fields": {
-      "meaning": "Temperance meaning.",
+      "meaning": "this card is an indication that one should take the middle path; a path of calmness. This is supported by the deep-thinking kitty taking a relaxing tea break.  If dealt this card one should be thinking about a lack of patience",
       "imgUrl": "img/temperance.jpg",
-      "altText": "",
+      "altText": "cute kitty sipping on coffee/tea and tells the server to keep pouring.",
       "number": 14,
       "title": "Temperance"
     }
@@ -168,9 +168,9 @@
     "model": "reader.majorarcanacard",
     "pk": 16,
     "fields": {
-      "meaning": "The Devil meaning.",
+      "meaning": "This card represents being seduced by material objects within the physical world. the devil kitty is gluttonously devouring the the flip flop. this card is also an indication of relationship challenges… shown with one should being devoured by sin and the other off in the distance. ",
       "imgUrl": "img/devil.jpg",
-      "altText": "",
+      "altText": "cute black kitty trying to eat a flip flop.",
       "number": 15,
       "title": "The Devil"
     }
