@@ -50,7 +50,7 @@
     "pk": 3,
     "fields": {
       "title": "Future",
-      "meaning": "This card represents future if you continue on the current course.",
+      "meaning": "This card represents the future if you continue on the current course.",
       "spread": 1
     }
   },
@@ -131,7 +131,7 @@
     "pk": 12,
     "fields": {
       "title": "Potential",
-      "meaning": "This card represents the best possible outcome for the journey you're one. You might be on the right track, or it may be time to change course.",
+      "meaning": "This card represents the best possible outcome for the journey you're on. You might be on the right track, or it may be time to change course.",
       "spread": 4
     }
   }
