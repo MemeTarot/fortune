@@ -3,7 +3,7 @@
     "model": "reader.majorarcanacard",
     "pk": 1,
     "fields": {
-      "meaning": "New beginnings, faith in the future, and a belief in the universe. It is the naivety before setting off on a big journey.",
+      "meaning": "The Fool represents new beginnings, faith in the future, and a belief in the universe. It is the naivety before setting off on a big journey.",
       "imgUrl": "img/fool.jpg",
       "altText": "When you leave just enough toilet paper on the roll so you don't have to change it, but you're the next one to use the bathroom. Congratulations... you played yourself.",
       "number": 0,
@@ -14,9 +14,9 @@
     "model": "reader.majorarcanacard",
     "pk": 2,
     "fields": {
-      "meaning": "Tap into your full talents, capabilities, resources at your disposal, rather than holding back, especially when there is a need to transform something. ",
+      "meaning": "Tap into your full talents, capabilities, and resources at your disposal; rather than holding back, especially when there is a need to transform something. ",
       "imgUrl": "img/magician.jpg",
-      "altText": "A Magician clad in CD-ROMs and the caption: When you write over 1000 lines of code and it works perfectly on the first run.",
+      "altText": "A Magician clad in CD-ROMs and the caption: 'When you write over 1000 lines of code and it works perfectly on the first run.'",
       "number": 1,
       "title": "The Magician"
     }
@@ -36,7 +36,7 @@
     "model": "reader.majorarcanacard",
     "pk": 4,
     "fields": {
-      "meaning": "Traditionally a maternal figure, she represents the creation of life, romance, art, or new business.",
+      "meaning": "Traditionally a maternal figure, The Empress represents the creation of life, romance, art, or new business.",
       "imgUrl": "img/empress.jpg",
       "altText": "Me: Where's the cat? Her: She doesn't respond to that. Me: I'm not saying it. Her: Then I'm not telling you. Me: Ok, where is Her Majesty, Empress Clawdia? Her: On her throne.",
       "number": 3,
@@ -47,7 +47,7 @@
     "model": "reader.majorarcanacard",
     "pk": 5,
     "fields": {
-      "meaning": "He is stability and security, the figure of being in charge of your own rules and boundaries.",
+      "meaning": "The Emperor is stability and security; he is the figure of being in charge of your own rules and boundaries.",
       "imgUrl": "img/emperor.jpg",
       "altText": "The Emperor ('Me') upset at an underling ('Pandora commercials') with the subtitle: 'You threw off my groove!'",
       "number": 4,
@@ -58,7 +58,7 @@
     "model": "reader.majorarcanacard",
     "pk": 6,
     "fields": {
-      "meaning": "The Hierophant is a spiritual figure who is knowledgable about traditional values. Consider your relationship to ritual, to morality as defined by groups that are meaningful to you.",
+      "meaning": "The Hierophant is a spiritual figure who is knowledgable about traditional values. Consider your relationship to ritual, to morality, as defined by groups that are meaningful to you.",
       "imgUrl": "img/heirophant.jpg",
       "altText": "A raptor dressed in robes cuddles a lamb.",
       "number": 5,
@@ -69,7 +69,7 @@
     "model": "reader.majorarcanacard",
     "pk": 7,
     "fields": {
-      "meaning": "Our connection to others is sacred and challenging. The lovers is about connection, communication, honesty, and the choices that shape our relationship to self and others.",
+      "meaning": "Our connection to others is sacred and challenging. The Lovers is about connection, communication, honesty, and the choices that shape our relationship to ourselves and to others.",
       "imgUrl": "img/lovers.jpg",
       "altText": "A teenager holds up a sign that says: I love you more than free wifi.",
       "number": 6,
@@ -113,9 +113,9 @@
     "model": "reader.majorarcanacard",
     "pk": 11,
     "fields": {
-      "meaning": "The wheel of fortune is interpreted as the wheel of life. conviction alone will not keep you from the brink of losing all your fortunes as seen with the angry women. the other contestants can be interpreted as how people in your lives view you. The alien symoolizes fortunes ethereal treasures on the horizon.",
+      "meaning": "The Wheel of Fortune is interpreted as the wheel of life. Conviction alone will not keep you from the brink of losing all your fortunes as seen with the angry woman. The other contestants can be interpreted as how people in your life view you. The wheel symbolizes fortunes - ethereal treasures - on the horizon.",
       "imgUrl": "img/wheel-of-fortune.jpg",
-      "altText": "A cartoon drawing of the wheel of fortune game with 3 contestants. the first contestant is demanding to buy an 'A'.",
+      "altText": "A cartoon drawing of the wheel of fortune game with 3 contestants. The first contestant is demanding to buy an 'A'. Caption: Irritable Vowel Syndrome.",
       "number": 10,
       "title": "Wheel of Fortune"
     }
@@ -124,9 +124,9 @@
     "model": "reader.majorarcanacard",
     "pk": 12,
     "fields": {
-      "meaning": "The figure in the Justice card has two symbolic meanings. The cat represents balance and the batman helmet is a preservation  of force  by any means of force. When this card is present one should be focusing on unfair treatment and imbalance.",
+      "meaning": "The figure in the Justice card has two symbolic meanings. The cat represents balance and the batman helmet is the preservation of force by any means. When this card is present, one should be focusing on unfair treatment and imbalance.",
       "imgUrl": "img/justice.jpg",
-      "altText": "Picture of a cat dressed as batman. very cute and cuddly and the bat costume is a lego batman helmet.",
+      "altText": "Picture of a cat dressed as batman. Very cute and cuddly, and the bat costume is a lego batman helmet. Caption: Bat Cat wants coffee. Black. With justice. And head scratches.",
       "number": 11,
       "title": "Justice"
     }
@@ -135,9 +135,9 @@
     "model": "reader.majorarcanacard",
     "pk": 13,
     "fields": {
-      "meaning": "Number 2 has is ensnared in a TRAP! the significance of Number 2 hanging by his feet should convey an ultimate feeling of surrender where one is not in control of one's fate. when dealt this card one should be thinking about opportunities being missed.",
+      "meaning": "Number 2 has is ensnared in a TRAP! The significance of Number 2 hanging by his feet should convey an ultimate feeling of surrender where one is not in control of one's fate. When dealt this card, one should be thinking about opportunities being missed.",
       "imgUrl": "img/hanged-man.jpg",
-      "altText": "star trek's number 2 has been caught in a bunny snare and warf/the doctor look very confused",
+      "altText": "Star Trek's Number 2 has been caught in a bunny snare and Warf/The Doctor look very confused. Caption: Admiral Ackbar was right.",
       "number": 12,
       "title": "The Hanged Man"
     }
@@ -157,9 +157,9 @@
     "model": "reader.majorarcanacard",
     "pk": 15,
     "fields": {
-      "meaning": "this card is an indication that one should take the middle path; a path of calmness. This is supported by the deep-thinking kitty taking a relaxing tea break.  If dealt this card one should be thinking about a lack of patience",
+      "meaning": "Temperance is an indication that one should take the middle path - a path of calmness. This is supported by the deep-thinking kitty taking a relaxing tea break.  If dealt this card, one should be thinking about a lack of patience.",
       "imgUrl": "img/temperance.jpg",
-      "altText": "cute kitty sipping on coffee/tea and tells the server to keep pouring.",
+      "altText": "cute kitty sipping on coffee/tea. Caption: Keep pouring, It's going to be a rough day.",
       "number": 14,
       "title": "Temperance"
     }
@@ -168,9 +168,9 @@
     "model": "reader.majorarcanacard",
     "pk": 16,
     "fields": {
-      "meaning": "This card represents being seduced by material objects within the physical world. the devil kitty is gluttonously devouring the the flip flop. this card is also an indication of relationship challenges… shown with one should being devoured by sin and the other off in the distance. ",
+      "meaning": "The Devil represents being seduced by material objects within the physical world. The devil kitty is gluttonously devouring the the flip-flop. This card is also an indication of relationship challenge... shown with one should being devoured by sin and the other off in the distance.",
       "imgUrl": "img/devil.jpg",
-      "altText": "cute black kitty trying to eat a flip flop.",
+      "altText": "Cute black kitty trying to eat a flip-flop. Caption: Your sole is mine!",
       "number": 15,
       "title": "The Devil"
     }
@@ -223,7 +223,7 @@
     "model": "reader.majorarcanacard",
     "pk": 21,
     "fields": {
-      "meaning": "The judgement card indicates the time to make a change, and it is time for a life-changing decision.  Judgement is the symbol of rebirth, right judgement, absolution, and positive changes. Judgment could be interpreted as the spiritual awakening to make the right decison for better changes. ",
+      "meaning": "The Judgement card indicates the time to make a change, and it is time for a life-changing decision.  Judgement is the symbol of rebirth, right judgement, absolution, and positive changes. Judgment could be interpreted as the spiritual awakening to make the right decison for better changes. ",
       "imgUrl": "img/judge.jpg",
       "altText": "The funny picture of a judge with the title Line of control and him saying Odour Odour with the streak of stink smell.",
       "number": 20,
@@ -236,7 +236,7 @@
     "fields": {
       "meaning": "The ending to a cycle of life, or a pause before the next big cycle. Major change may be on your horizon.",
       "imgUrl": "img/world.jpg",
-      "altText": "A cat playing with a ball, outlined on a map of Earth. Captioned, I have retired the flat earth theory... the world is actually a cat I'm sorry",
+      "altText": "A cat playing with a ball, outlined on a map of Earth. Captioned: I have retired the flat earth theory... the world is actually a cat I'm sorry",
       "number": 21,
       "title": "The World"
     }
